@@ -217,6 +217,11 @@ npm run build
 
 用户只需用手机浏览器打开网站，点击"添加到主屏幕"即可像原生应用一样使用。
 
+打包：npm run build 得到dist文件夹
+打开 netlify.com 用 Github 登录 → Add new site → Drag and drop files here
+直接把本地整个 dist 文件夹拖入网页上传
+几秒部署完成，自动生成：https://xxx.netlify.app（自带绿色安全锁 HTTPS）Netlify
+可选：域名设置打开Force HTTPS，所有 http 自动跳转 https
 ---
 
 ## 项目结构
